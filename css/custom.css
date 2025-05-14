@@ -1,0 +1,87 @@
+/* ��������ʽ */
+.navbar {
+    background-color: #425aef; /* ����ɫ */
+    padding: 10px 0; /* �ڱ߾ࣺ���� 10px������ 0 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* ��ӰЧ�� */
+}
+
+    /* ������������ʽ */
+    .navbar a {
+        color: white; /* ����������ɫ */
+        font-weight: bold; /* ���ּӴ� */
+        text-decoration: none; /* ȥ���»��� */
+    }
+
+        /* ������������ͣЧ�� */
+        .navbar a:hover {
+            color: #ff7242; /* ��ͣʱ������ɫ */
+        }
+
+/* ���±�����ʽ */
+.post-title {
+    color: #333; /* ������ɫ */
+    font-size: 2em; /* �����С��2����Ĭ�����壩 */
+    margin-bottom: 20px; /* �ײ���߾� */
+    text-align: center; /* ���־��� */
+    border-bottom: 2px solid #425aef; /* �ײ��߿� */
+    padding-bottom: 10px; /* �ײ��ڱ߾� */
+}
+
+    /* ���±�����ͣЧ������ѡ�� */
+    .post-title:hover {
+        color: #425aef; /* ��ͣʱ������ɫ */
+    }
+
+/* ������������ʽ */
+.post-content {
+    line-height: 1.8; /* �иߣ�1.8���������С�� */
+    color: #555; /* ������ɫ */
+    font-size: 16px; /* �����С */
+    margin: 0 auto; /* ˮƽ���� */
+    max-width: 800px; /* ������ */
+}
+
+    /* ����������������ʽ */
+    .post-content a {
+        color: #425aef; /* ������ɫ */
+        text-decoration: underline; /* �»��� */
+    }
+
+    /* �����������������ʽ */
+    .post-content pre {
+        background-color: #f8f8f8; /* ����鱳��ɫ */
+        padding: 15px; /* �ڱ߾� */
+        border-radius: 5px; /* Բ�� */
+        overflow-x: auto; /* ������������������ʱ�� */
+    }
+
+/* �������ʽ */
+.sidebar {
+    width: 300px; /* ���� */
+    background-color: #f9f9f9; /* ����ɫ */
+    padding: 20px; /* �ڱ߾� */
+    border-right: 1px solid #eee; /* �Ҳ�߿� */
+    position: fixed; /* �̶���λ */
+    top: 0;
+    right: 0;
+    height: 100vh; /* �߶ȣ��Ӵ��߶ȣ� */
+}
+
+/* �����������ʽ */
+.sidebar-title {
+    color: #333; /* ������ɫ */
+    font-size: 1.2em; /* �����С */
+    margin-bottom: 15px; /* �ײ���߾� */
+}
+
+/* �����������ʽ */
+.sidebar a {
+    color: #666; /* ������ɫ */
+    display: block; /* �鼶Ԫ�� */
+    padding: 5px 0; /* �ڱ߾� */
+}
+
+    /* �����������ͣЧ�� */
+    .sidebar a:hover {
+        color: #425aef; /* ��ͣʱ������ɫ */
+    }
